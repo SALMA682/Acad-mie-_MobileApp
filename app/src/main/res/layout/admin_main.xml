@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tableau de bord Administrateur"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnAddSurveillant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Surveillant"
+        app:layout_constraintTop_toBottomOf="@id/titleAdmin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnAddProfesseur"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Professeur"
+        app:layout_constraintTop_toBottomOf="@id/btnAddSurveillant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnAddEtudiant"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Étudiant"
+        app:layout_constraintTop_toBottomOf="@id/btnAddProfesseur"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnGererEmploi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Gérer Emplois du temps"
+        app:layout_constraintTop_toBottomOf="@id/btnAddEtudiant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

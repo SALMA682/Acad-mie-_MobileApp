@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f9fc">
+
+    <!-- Toolbar (si nécessaire) -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2c3e50"
+        android:title="Emploi du temps"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- Le ScrollView contient le tableau -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:id="@+id/timetable_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            android:padding="8dp"
+            android:background="@android:color/white"
+            android:elevation="4dp" />
+    </ScrollView>
+    <Button
+        android:id="@+id/save_emploi_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enregistrer l'emploi du temps"
+        android:layout_gravity="center"/>
+
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2025 Académie+ — Tous droits réservés."
+        android:textColor="#ffffff"
+        android:background="#2c3e50"
+        android:padding="12dp"
+        android:textAlignment="center" />
+
+</LinearLayout>

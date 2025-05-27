@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "35723535811",
+    "project_id": "academiplus-cdb82",
+    "storage_bucket": "academiplus-cdb82.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35723535811:android:7bab58743807db6e64c976",
+        "android_client_info": {
+          "package_name": "com.example.academiplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Bl-Nnqb4QGDvJTYhIMlbLwgCEnh5KuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35723535811:android:dcb08b989508a09e64c976",
+        "android_client_info": {
+          "package_name": "com.exemple.academieplus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Bl-Nnqb4QGDvJTYhIMlbLwgCEnh5KuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

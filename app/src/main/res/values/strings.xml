@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AcademiPlus</string>
+    <string name="select_class">Choisissez un role</string>
+    <string-array name="class_list">
+        <item>Administrateur</item>
+        <item>Etudiant</item>
+        <item>Professeur</item>
+        <item>Surveillant</item>
+    </string-array>
+    <string name="select_level">Choisissez un niveau</string>
+    <string-array name="niveaux">
+        <item>1ère Année</item>
+        <item>2ème Année</item>
+        <item>3ème Année</item>
+    </string-array>
+</resources>
